@@ -85,7 +85,6 @@ TPI-Arquitectura-de-Sistemas-Operativos
 ├── Configuracion/
 ├── Evidencias/
 ├── Recursos/
-├── Scripts/
 ├── README.md
 ├── LICENSE
 └── .gitignore
