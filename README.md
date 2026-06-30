@@ -131,7 +131,7 @@ Los resultados obtenidos validan la arquitectura propuesta y demuestran la efica
 
 ## Autor
 
-**Mateo**
+**Mateo Fernandez**
 
 Tecnicatura Universitaria en Programación
 
