@@ -126,7 +126,6 @@ Los resultados obtenidos validan la arquitectura propuesta y demuestran la efica
 | Configuracion | Archivos de configuración utilizados durante el laboratorio |
 | Evidencias | Capturas de pantalla y registros obtenidos |
 | Recursos | Diagramas y material gráfico del proyecto |
-| Scripts | Scripts auxiliares desarrollados para el laboratorio |
 
 ---
 
