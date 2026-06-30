@@ -1,0 +1,200 @@
+2026-06-29T22:41:41.330495-03:00 server-linux sshd-session[4326]: Received disconnect from 192.168.132.129 port 51238:11: Bye Bye [preauth]
+2026-06-29T22:41:41.330619-03:00 server-linux sshd-session[4326]: Disconnected from authenticating user adminlab 192.168.132.129 port 51238 [preauth]
+2026-06-29T22:41:41.640923-03:00 server-linux unix_chkpwd[4330]: password check failed for user (adminlab)
+2026-06-29T22:41:41.641928-03:00 server-linux sshd-session[4328]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T22:41:43.402519-03:00 server-linux sshd-session[4328]: Failed password for adminlab from 192.168.132.129 port 51252 ssh2
+2026-06-29T22:41:44.442669-03:00 server-linux sshd-session[4328]: Connection closed by authenticating user adminlab 192.168.132.129 port 51252 [preauth]
+2026-06-29T22:42:03.220516-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:42:03.221009-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-06-29T22:42:03.288528-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:42:50.251078-03:00 server-linux sshd-session[4358]: Received disconnect from 192.168.132.129 port 35266:11: Bye Bye [preauth]
+2026-06-29T22:42:50.251225-03:00 server-linux sshd-session[4358]: Disconnected from authenticating user adminlab 192.168.132.129 port 35266 [preauth]
+2026-06-29T22:42:50.564682-03:00 server-linux unix_chkpwd[4362]: password check failed for user (adminlab)
+2026-06-29T22:42:50.565376-03:00 server-linux sshd-session[4360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T22:42:52.751818-03:00 server-linux sshd-session[4360]: Failed password for adminlab from 192.168.132.129 port 35274 ssh2
+2026-06-29T22:42:53.360721-03:00 server-linux sshd-session[4360]: Connection closed by authenticating user adminlab 192.168.132.129 port 35274 [preauth]
+2026-06-29T22:43:03.117043-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:43:03.117266-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-06-29T22:43:03.189180-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:43:26.447156-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:43:26.447479-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-06-29T22:43:26.527171-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:48:44.031134-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:48:44.033831-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client get sshd maxretry
+2026-06-29T22:48:44.116935-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:48:57.904681-03:00 server-linux dbus-daemon[1214]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-06-29T22:49:18.874084-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:49:18.874432-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client get sshd findtime
+2026-06-29T22:49:18.971092-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:49:42.164831-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:49:42.165069-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client get sshd bantime
+2026-06-29T22:49:42.280855-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:50:18.072514-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:50:18.073900-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-06-29T22:50:18.164069-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:51:26.698361-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:51:26.698721-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/tail -30 /var/log/fail2ban.log
+2026-06-29T22:51:26.714208-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:53:00.721848-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:53:00.722469-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh --since 10 minutes ago
+2026-06-29T22:53:00.747707-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:53:16.918598-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:53:16.919151-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh --since 30 minutes ago
+2026-06-29T22:54:05.859664-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T22:55:14.425257-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T22:55:14.426174-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/tail -30 /var/log/auth.log
+2026-06-29T22:55:14.434595-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:06:21.752910-03:00 server-linux sshd-session[4857]: Received disconnect from 192.168.132.129 port 43034:11: Bye Bye [preauth]
+2026-06-29T23:06:21.753056-03:00 server-linux sshd-session[4857]: Disconnected from authenticating user adminlab 192.168.132.129 port 43034 [preauth]
+2026-06-29T23:06:22.074118-03:00 server-linux unix_chkpwd[4861]: password check failed for user (adminlab)
+2026-06-29T23:06:22.074825-03:00 server-linux sshd-session[4859]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:06:23.926268-03:00 server-linux sshd-session[4859]: Failed password for adminlab from 192.168.132.129 port 43050 ssh2
+2026-06-29T23:06:24.905212-03:00 server-linux unix_chkpwd[4862]: password check failed for user (adminlab)
+2026-06-29T23:06:26.750728-03:00 server-linux sshd-session[4859]: Failed password for adminlab from 192.168.132.129 port 43050 ssh2
+2026-06-29T23:06:27.735225-03:00 server-linux unix_chkpwd[4863]: password check failed for user (adminlab)
+2026-06-29T23:06:29.456947-03:00 server-linux sshd-session[4859]: Failed password for adminlab from 192.168.132.129 port 43050 ssh2
+2026-06-29T23:06:30.570272-03:00 server-linux unix_chkpwd[4864]: password check failed for user (adminlab)
+2026-06-29T23:06:32.699100-03:00 server-linux sshd-session[4859]: Failed password for adminlab from 192.168.132.129 port 43050 ssh2
+2026-06-29T23:06:33.406536-03:00 server-linux unix_chkpwd[4865]: password check failed for user (adminlab)
+2026-06-29T23:06:34.724707-03:00 server-linux sshd-session[4859]: Failed password for adminlab from 192.168.132.129 port 43050 ssh2
+2026-06-29T23:06:34.819540-03:00 server-linux unix_chkpwd[4866]: password check failed for user (adminlab)
+2026-06-29T23:06:36.712483-03:00 server-linux sshd-session[4859]: Failed password for adminlab from 192.168.132.129 port 43050 ssh2
+2026-06-29T23:06:37.611634-03:00 server-linux sshd-session[4859]: error: maximum authentication attempts exceeded for adminlab from 192.168.132.129 port 43050 ssh2 [preauth]
+2026-06-29T23:06:37.619277-03:00 server-linux sshd-session[4859]: Disconnecting authenticating user adminlab 192.168.132.129 port 43050: Too many authentication failures [preauth]
+2026-06-29T23:06:37.619489-03:00 server-linux sshd-session[4859]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:06:37.620267-03:00 server-linux sshd-session[4859]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-06-29T23:06:37.716614-03:00 server-linux unix_chkpwd[4869]: password check failed for user (adminlab)
+2026-06-29T23:06:37.717380-03:00 server-linux sshd-session[4867]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:06:39.719459-03:00 server-linux sshd-session[4867]: Failed password for adminlab from 192.168.132.129 port 44294 ssh2
+2026-06-29T23:06:40.554302-03:00 server-linux unix_chkpwd[4870]: password check failed for user (adminlab)
+2026-06-29T23:06:42.244579-03:00 server-linux sshd-session[4867]: Failed password for adminlab from 192.168.132.129 port 44294 ssh2
+2026-06-29T23:06:43.383539-03:00 server-linux unix_chkpwd[4871]: password check failed for user (adminlab)
+2026-06-29T23:06:45.314575-03:00 server-linux sshd-session[4867]: Failed password for adminlab from 192.168.132.129 port 44294 ssh2
+2026-06-29T23:06:46.210731-03:00 server-linux unix_chkpwd[4872]: password check failed for user (adminlab)
+2026-06-29T23:06:47.578085-03:00 server-linux sshd-session[4867]: Failed password for adminlab from 192.168.132.129 port 44294 ssh2
+2026-06-29T23:06:47.625258-03:00 server-linux unix_chkpwd[4873]: password check failed for user (adminlab)
+2026-06-29T23:06:48.846383-03:00 server-linux sshd-session[4867]: Failed password for adminlab from 192.168.132.129 port 44294 ssh2
+2026-06-29T23:06:49.009428-03:00 server-linux sshd-session[4867]: Connection closed by authenticating user adminlab 192.168.132.129 port 44294 [preauth]
+2026-06-29T23:06:49.009533-03:00 server-linux sshd-session[4867]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:06:49.009575-03:00 server-linux sshd-session[4867]: PAM service(sshd) ignoring max retries; 5 > 3
+2026-06-29T23:08:00.165960-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:08:00.168436-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/journalctl -f -u ssh
+2026-06-29T23:08:54.736103-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:09:18.188399-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:09:18.190698-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-06-29T23:10:40.926739-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:10:48.664960-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:10:48.666532-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/grep -E PasswordAuthentication|KbdInteractiveAuthentication|UsePAM /etc/ssh/sshd_config
+2026-06-29T23:10:48.678801-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:15:00.092387-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:15:00.093508-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/grep -A15 \\[sshd\\] /etc/fail2ban/jail.local
+2026-06-29T23:15:00.099534-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:17:01.261980-03:00 server-linux CRON[5037]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-29T23:17:01.268635-03:00 server-linux CRON[5037]: pam_unix(cron:session): session closed for user root
+2026-06-29T23:17:51.092090-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:17:51.093879-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client get sshd failregex
+2026-06-29T23:17:51.204387-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:22:11.721720-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:22:11.723664-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-06-29T23:22:11.794068-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:27:10.782890-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:27:10.784360-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.132.129
+2026-06-29T23:27:10.870613-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:27:24.574022-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:27:24.575085-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-06-29T23:27:24.650147-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:30:01.457131-03:00 server-linux CRON[5131]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-29T23:30:01.457639-03:00 server-linux CRON[5131]: pam_unix(cron:session): session closed for user root
+2026-06-29T23:38:34.388581-03:00 server-linux systemd-logind[1291]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-29T23:38:34.388584-03:00 server-linux systemd-logind[1291]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-29T23:38:34.388587-03:00 server-linux systemd-logind[1291]: New seat seat0.
+2026-06-29T23:38:35.082347-03:00 server-linux sshd[1619]: Server listening on 0.0.0.0 port 22.
+2026-06-29T23:38:35.082422-03:00 server-linux sshd[1619]: Server listening on :: port 22.
+2026-06-29T23:38:35.570059-03:00 server-linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-06-29T23:38:35.616963-03:00 server-linux systemd-logind[1291]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-06-29T23:38:35.742261-03:00 server-linux (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-06-29T23:38:35.749236-03:00 server-linux systemd-logind[1291]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-06-29T23:39:04.879998-03:00 server-linux gdm-password]: gkr-pam: unable to locate daemon control file
+2026-06-29T23:39:04.880103-03:00 server-linux gdm-password]: gkr-pam: stashed password to try later in open session
+2026-06-29T23:39:04.890908-03:00 server-linux gdm-password]: pam_unix(gdm-password:session): session opened for user adminlab(uid=1001) by adminlab(uid=0)
+2026-06-29T23:39:04.906699-03:00 server-linux systemd-logind[1291]: New session '2' of user 'adminlab' with class 'user' and type 'wayland'.
+2026-06-29T23:39:04.950803-03:00 server-linux (systemd): pam_unix(systemd-user:session): session opened for user adminlab(uid=1001) by adminlab(uid=0)
+2026-06-29T23:39:04.951272-03:00 server-linux systemd-logind[1291]: New session '3' of user 'adminlab' with class 'manager' and type 'unspecified'.
+2026-06-29T23:39:05.314502-03:00 server-linux gdm-password]: gkr-pam: unlocked login keyring
+2026-06-29T23:39:11.346154-03:00 server-linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-06-29T23:39:11.350394-03:00 server-linux systemd-logind[1291]: Session c1 logged out. Waiting for processes to exit.
+2026-06-29T23:39:11.364739-03:00 server-linux systemd-logind[1291]: Removed session c1.
+2026-06-29T23:39:21.590062-03:00 server-linux systemd-logind[1291]: Removed session 1.
+2026-06-29T23:40:51.258756-03:00 server-linux sshd-session[4299]: Received disconnect from 192.168.132.129 port 40884:11: Bye Bye [preauth]
+2026-06-29T23:40:51.258926-03:00 server-linux sshd-session[4299]: Disconnected from authenticating user adminlab 192.168.132.129 port 40884 [preauth]
+2026-06-29T23:40:51.564909-03:00 server-linux unix_chkpwd[4303]: password check failed for user (adminlab)
+2026-06-29T23:40:51.565550-03:00 server-linux sshd-session[4301]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:40:53.646820-03:00 server-linux sshd-session[4301]: Failed password for adminlab from 192.168.132.129 port 40886 ssh2
+2026-06-29T23:40:54.393088-03:00 server-linux unix_chkpwd[4305]: password check failed for user (adminlab)
+2026-06-29T23:40:56.589824-03:00 server-linux sshd-session[4301]: Failed password for adminlab from 192.168.132.129 port 40886 ssh2
+2026-06-29T23:40:57.221785-03:00 server-linux unix_chkpwd[4306]: password check failed for user (adminlab)
+2026-06-29T23:40:59.564333-03:00 server-linux sshd-session[4301]: Failed password for adminlab from 192.168.132.129 port 40886 ssh2
+2026-06-29T23:41:00.046522-03:00 server-linux unix_chkpwd[4308]: password check failed for user (adminlab)
+2026-06-29T23:41:02.168023-03:00 server-linux sshd-session[4301]: Failed password for adminlab from 192.168.132.129 port 40886 ssh2
+2026-06-29T23:41:02.877177-03:00 server-linux unix_chkpwd[4309]: password check failed for user (adminlab)
+2026-06-29T23:41:05.077677-03:00 server-linux sshd-session[4301]: Failed password for adminlab from 192.168.132.129 port 40886 ssh2
+2026-06-29T23:41:05.703570-03:00 server-linux unix_chkpwd[4310]: password check failed for user (adminlab)
+2026-06-29T23:41:07.508998-03:00 server-linux sshd-session[4301]: Failed password for adminlab from 192.168.132.129 port 40886 ssh2
+2026-06-29T23:41:08.505421-03:00 server-linux sshd-session[4301]: error: maximum authentication attempts exceeded for adminlab from 192.168.132.129 port 40886 ssh2 [preauth]
+2026-06-29T23:41:08.505669-03:00 server-linux sshd-session[4301]: Disconnecting authenticating user adminlab 192.168.132.129 port 40886: Too many authentication failures [preauth]
+2026-06-29T23:41:08.505743-03:00 server-linux sshd-session[4301]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:41:08.505801-03:00 server-linux sshd-session[4301]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-06-29T23:41:08.604123-03:00 server-linux unix_chkpwd[4313]: password check failed for user (adminlab)
+2026-06-29T23:41:08.604818-03:00 server-linux sshd-session[4311]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:41:10.789840-03:00 server-linux sshd-session[4311]: Failed password for adminlab from 192.168.132.129 port 56476 ssh2
+2026-06-29T23:41:11.436166-03:00 server-linux unix_chkpwd[4315]: password check failed for user (adminlab)
+2026-06-29T23:41:13.652989-03:00 server-linux sshd-session[4311]: Failed password for adminlab from 192.168.132.129 port 56476 ssh2
+2026-06-29T23:41:14.267742-03:00 server-linux unix_chkpwd[4316]: password check failed for user (adminlab)
+2026-06-29T23:41:16.459387-03:00 server-linux sshd-session[4311]: Failed password for adminlab from 192.168.132.129 port 56476 ssh2
+2026-06-29T23:41:17.094844-03:00 server-linux unix_chkpwd[4317]: password check failed for user (adminlab)
+2026-06-29T23:41:18.469874-03:00 server-linux sshd-session[4311]: Failed password for adminlab from 192.168.132.129 port 56476 ssh2
+2026-06-29T23:41:18.511885-03:00 server-linux unix_chkpwd[4319]: password check failed for user (adminlab)
+2026-06-29T23:41:20.265832-03:00 server-linux sshd-session[4311]: Failed password for adminlab from 192.168.132.129 port 56476 ssh2
+2026-06-29T23:41:21.313526-03:00 server-linux sshd-session[4311]: Connection closed by authenticating user adminlab 192.168.132.129 port 56476 [preauth]
+2026-06-29T23:41:21.314156-03:00 server-linux sshd-session[4311]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.132.129  user=adminlab
+2026-06-29T23:41:21.314358-03:00 server-linux sshd-session[4311]: PAM service(sshd) ignoring max retries; 5 > 3
+2026-06-29T23:43:28.808714-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:43:28.809100-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/journalctl -f -u ssh
+2026-06-29T23:47:33.009733-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-29T23:47:39.600536-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-29T23:47:39.601063-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-06-29T23:47:39.692351-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-30T00:00:53.471255-03:00 server-linux dbus-daemon[1213]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-06-30T00:17:01.840669-03:00 server-linux CRON[4781]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-30T00:17:01.844201-03:00 server-linux CRON[4781]: pam_unix(cron:session): session closed for user root
+2026-06-30T18:42:49.230922-03:00 server-linux systemd-logind[1301]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-30T18:42:49.230926-03:00 server-linux systemd-logind[1301]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-30T18:42:49.230930-03:00 server-linux systemd-logind[1301]: New seat seat0.
+2026-06-30T18:42:50.668501-03:00 server-linux sshd[1643]: Server listening on 0.0.0.0 port 22.
+2026-06-30T18:42:50.668616-03:00 server-linux sshd[1643]: Server listening on :: port 22.
+2026-06-30T18:42:51.047916-03:00 server-linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-06-30T18:42:51.159381-03:00 server-linux systemd-logind[1301]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-06-30T18:42:51.432528-03:00 server-linux (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-06-30T18:42:51.452134-03:00 server-linux systemd-logind[1301]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-06-30T18:43:08.340200-03:00 server-linux gdm-password]: gkr-pam: unable to locate daemon control file
+2026-06-30T18:43:08.340287-03:00 server-linux gdm-password]: gkr-pam: stashed password to try later in open session
+2026-06-30T18:43:08.355366-03:00 server-linux gdm-password]: pam_unix(gdm-password:session): session opened for user adminlab(uid=1001) by adminlab(uid=0)
+2026-06-30T18:43:08.370299-03:00 server-linux systemd-logind[1301]: New session '2' of user 'adminlab' with class 'user' and type 'wayland'.
+2026-06-30T18:43:08.428105-03:00 server-linux (systemd): pam_unix(systemd-user:session): session opened for user adminlab(uid=1001) by adminlab(uid=0)
+2026-06-30T18:43:08.434545-03:00 server-linux systemd-logind[1301]: New session '3' of user 'adminlab' with class 'manager' and type 'unspecified'.
+2026-06-30T18:43:08.907378-03:00 server-linux gdm-password]: gkr-pam: unlocked login keyring
+2026-06-30T18:43:18.800322-03:00 server-linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-06-30T18:43:18.805583-03:00 server-linux systemd-logind[1301]: Session c1 logged out. Waiting for processes to exit.
+2026-06-30T18:43:18.807758-03:00 server-linux systemd-logind[1301]: Removed session c1.
+2026-06-30T18:43:28.941652-03:00 server-linux systemd-logind[1301]: Removed session 1.
+2026-06-30T18:50:09.939081-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-30T18:50:09.939378-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab/TPI_export ; USER=root ; COMMAND=/usr/sbin/sshd -T
+2026-06-30T18:50:09.947229-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-30T18:51:40.000412-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-30T18:51:40.000981-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab/TPI_export ; USER=root ; COMMAND=/usr/bin/wc -l /var/log/fail2ban.log
+2026-06-30T18:51:40.012370-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-30T18:52:59.883926-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-30T18:52:59.885333-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab/TPI_export ; USER=root ; COMMAND=/usr/bin/tail -200 /var/log/fail2ban.log
+2026-06-30T18:52:59.892621-03:00 server-linux sudo: pam_unix(sudo:session): session closed for user root
+2026-06-30T19:04:38.442126-03:00 server-linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminlab(uid=1001)
+2026-06-30T19:04:38.443104-03:00 server-linux sudo: adminlab : TTY=/dev/pts/0 ; PWD=/home/adminlab/TPI_export ; USER=root ; COMMAND=/usr/bin/tail -200 /var/log/auth.log

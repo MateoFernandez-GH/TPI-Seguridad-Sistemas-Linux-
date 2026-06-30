@@ -1,0 +1,17 @@
+  Static hostname: server-linux
+        Icon name: computer-vm
+          Chassis: vm 🖴
+Chassis Asset Tag: No Asset Tag
+       Machine ID: ce3fc1f7352540f690a777ca678593b7
+          Boot ID: b27e01c7e14e4c0fb8093bb5919b8078
+     AF_VSOCK CID: 2740970585
+   Virtualization: vmware
+ Operating System: Ubuntu 26.04 LTS
+           Kernel: Linux 7.0.0-27-generic
+     Architecture: x86-64
+  Hardware Vendor: VMware, Inc.
+   Hardware Model: VMware Virtual Platform
+ Hardware Version: None
+ Firmware Version: 6.00
+    Firmware Date: Thu 2020-11-12
+     Firmware Age: 5y 7month 2w 3d
