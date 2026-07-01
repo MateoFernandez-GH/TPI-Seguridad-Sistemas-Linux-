@@ -1,0 +1,16 @@
+# Archivos temporales
+*.tmp
+*.log~
+
+# Caché
+__pycache__/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code
+.vscode/
+
+# Configuración de IntelliJ
+.idea/
